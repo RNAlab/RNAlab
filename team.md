@@ -72,11 +72,11 @@ image:
 <div class="human" style="background-color:#ddd;">
 
   <img align="right" style="width: 100px; height: 100px" 
-  src="{{ "/images/hu/atcg.png" | prepend: site.baseurl }}">
+  src="{{ "/images/hu/sl.jpg" | prepend: site.baseurl }}">
   
   <b>Sergei Lenskii</b> <br>
   <i>Research Associate</i>
-  <p style="width: calc(100% - 100px - 8px);"><i>...</i></p>
+  <p style="width: calc(100% - 100px - 8px);"><i>Hope is stronger than fear.</i></p>
 
 </div>
 
