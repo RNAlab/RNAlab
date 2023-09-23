@@ -1,0 +1,65 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+
+<body id="site-index" {% if page.image.feature %}class="feature"{% endif %}>
+
+{% include navigation.html %}
+
+<!-- HEADER -->
+<div class="entry-header">
+  {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+
+  {% if page.image.feature %}
+    <div class="entry-image">
+      <img src="{{ site.url }}/images/bg/{{ page.image.feature }}" alt="{{ page.title }}">
+    </div><!-- /.entry-image -->
+  {% endif %}
+
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <b>
+        <a style="text-align:center;font-family:Courier; font-weight: bold; color:#FFFFFF; font-size: 40px;">The Laboratory for <br></a>
+        <a style="font-family:Courier; font-weight: bold; color:#ceda27; font-size: 60px;">RNA-Based Lifeforms</a>
+        <a style="font-family:Courier; font-weight: bold; color:#FFFFFF; font-size: 60px;">:</a>
+        <img src="{{ site.url }}/images/cursor.gif" style="height: 50px; margin-left: -10px; margin-bottom: 35px">
+      </b>
+      <!-- <h2>{{ site.description }}</h2> -->
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
+
+<!-- MAIN CONTENT -->
+  <a style="display:inline-block; font-style: italic; color:#333333; line-height:0px;
+  font-size: 14px;">&nbsp;&nbsp; {{ site.owner.focus }}</a>
+
+<div id="main" role="main">
+  <!-- Lab Research -->
+  <a href="{{ site.url }}/research"><span class="btn btn-danger">Research</span></a>
+  <!-- Scientist Profiles -->
+  <a href="{{ site.url }}/team"><span class="btn btn-warning">Scientists</span></a>
+  <!-- Publications -->
+  <a href="{{ site.url }}/lit"><span class="btn btn-info">Publications</span></a>
+  <!-- Media -->
+  <a href="{{ site.url }}/media"><span class="btn btn-info">Media</span></a>
+  <!-- Join the RNAlab! -->
+  <a href="{{ site.url }}/join"><span class="btn btn-success">Join the RNALab</span></a>
+
+  {{ content }}
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+{% include scripts.html %}          
+
+</body>
+</html>
