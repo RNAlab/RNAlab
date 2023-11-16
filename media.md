@@ -28,6 +28,8 @@ image:
 
 ## Talks / Seminars
 
+- [Gairdner Science Week International Symposium](https://www.youtube.com/watch?v=mPUM-adhXd8?si=52VGXaeYHj_rD7DG&t=5875) - *Entering the "Platinum age of Virus Discovery"* (2023)
+
 - [Models, Inference, and Algorithms](https://www.youtube.com/watch?v=a2OuBnC0m-w) - *The limits of virus discovery and how to overcome them* (2022)
 
 - [Intelligent Systems for Molecular Biology](https://www.youtube.com/watch?v=ckulYdtTEa0) - *Computational biology Will Lead Future Pandemic mitigation.* (2022)
