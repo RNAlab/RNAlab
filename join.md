@@ -12,7 +12,10 @@ The *RNAlab* is a highly collaborative, fast-paced research team. We're looking 
 
 Whether you're a squishy biologist interested in learning to probe nature through very large computing; or a CS student interested in probing very large computers into some squishy nature (or anything in-between), we would love to join you on your journey.
 
-Shoot me an [email](mailto:artem@rRNA.ca) with the subject `RNAlab App - Student`, please provide your CV, half a page on what your aspirations are and why you think RNAlab will help you get there. If you're particularily ambitious, write a one page research proposal of what you want to do for your research/thesis and we can use that as a starting point.   
+Shoot me an [email](mailto:artem@rRNA.ca) with the subject `RNAlab App - Student`, please provide your CV, half a page on what your aspirations are and why you think RNAlab will help you get there. If you're particularily ambitious, write a one page research proposal of what you want to do for your research/thesis and we can use that as a starting point.
+
+Funded Applications (apply here)
+- [Data Science Initiative - Summer Undergraduate Data Science (DSI-SUDS)](https://datasciences.utoronto.ca/suds/) - closes Jan 25, 2024
 
 ## Graduate Students
 
