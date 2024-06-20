@@ -12,120 +12,87 @@ image:
 /* Create three equal columns that floats next to each other */
 .human {
   flex: 0 0 45%;
-  /* float: left; */
   width: 45%;
-  /* height: 120px; */
   padding: 10px;
-  /*height: 100px; /* Should be removed. Only for demonstration */
   min-width: 320px;
+  max-width: 430px;
+  background-color: #ddd;
+  border-radius: 3px;
+  box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,.1);
 }
+
+.group-counter {
+  max-width: 95%;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
 </style>
 
-# Current 
+# Current
 
-<div style="display: flex; flex-wrap: wrap; gap: 32px; justify-content: space-around; width: 100%;">
-<div class="human" style="background-color:#ddd;">
+{% assign currentMembers = site.data.team | where:"current","true"  %}
+{% assign alumniMembers = site.data.team | where:"current","false"  %}
 
-  <img align="right" style="width: 100px; height: 100px" 
-  src="{{ "/images/hu/ab_shroom.jpg" | prepend: site.baseurl }}">
-  
-  <b>Artem Babaian</b> <br>
-  <i>Scientist</i>
-  <p style="width: calc(100% - 100px - 8px);"><i>"From all the things I've lost, I miss my mind the most."</i></p>
-  <p><a href="mailto:{{ site.owner.email }}">email</a> | <a href="http://rRNA.ca">cv</a> | <a href="https://github.com/ababaian">gh</a> </p>
-
-</div>
-
-<div class="human" style="background-color:#ddd;">
-
-  <img align="right" style="width: 100px; height: 100px" 
-  src="{{ "/images/hu/atcg.png" | prepend: site.baseurl }}">
-  
-  <b>Jawad Chowdhury</b> <br>
-  <i>Research Assistant</i>
-  <p style="width: calc(100% - 100px - 8px);"><i>Silence is Golden</i></p>
-
-</div>
-
-<div class="human" style="background-color:#ddd;">
-
-  <img align="right" style="width: 100px; height: 100px" 
-  src="{{ "/images/hu/pg.png" | prepend: site.baseurl }}">
-  
-  <b>Purav Gupta</b> <br>
-  <i>High School Student</i>
-  <p style="width: calc(100% - 100px - 8px);"><i>"That kid's ganna be smarter than all of us." -Artem</i></p>
-
-</div>
-
-<div class="human" style="background-color:#ddd;">
-
-  <img align="right" style="width: 100px; height: 100px" 
-  src="{{ "/images/hu/ah.jpg" | prepend: site.baseurl }}">
-  
-  <b>Aiden Hillier</b> <br>
-  <i>Research Assistant</i>
-  <p style="width: calc(100% - 100px - 8px);"><i>Aspiring chef and the lab's resident pie baker. Computational biology is my side gig.</i></p>
-
-</div>
-
-<div class="human" style="background-color:#ddd;">
-
-  <img align="right" style="width: 100px; height: 100px" 
-  src="{{ "/images/hu/sl.jpg" | prepend: site.baseurl }}">
-  
-  <b>Sergei Lenskii</b> <br>
-  <i>Research Associate</i>
-  <p style="width: calc(100% - 100px - 8px);"><i>Hope is stronger than fear.</i></p>
-
-</div>
-
-<div class="human" style="background-color:#ddd;">
-
-  <img align="right" style="width: 100px; height: 100px" 
-  src="{{ "/images/hu/dl.jpg" | prepend: site.baseurl }}">
-  
-  <b>Declan Lim</b> <br>
-  <i>Research Assistant</i>
-  <p style="width: calc(100% - 100px - 8px);"><i>Just trying to help humans update their anti virus software.</i></p>
-
-</div>
-
-<div class="human" style="background-color:#ddd;">
-
-  <img align="right" style="width: 100px; height: 100px" 
-  src="{{ "/images/hu/am.png" | prepend: site.baseurl }}">
-  
-  <b>Alex Morales</b> <br>
-  <i>Software Consultant (External)</i>
-  <p style="width: calc(100% - 100px - 8px);"><i>20+ or so years jumping between academia, industry and (tech-enabled) seclusion.</i></p>
-  <p><a href="https://www.linkedin.com/in/moralestapia/">linkedin</a> </p>
-
-</div>
-
-<div class="human" style="background-color:#ddd;">
-
-  <img align="right" style="width: 100px; height: 100px" 
-  src="{{ "/images/hu/lp.jpg" | prepend: site.baseurl }}">
-  
-  <b>Luke Pereira</b> <br>
-  <i>Software Engineer</i>
-  <p style="width: calc(100% - 100px - 8px);"><i>Interested in geometry, graphs, and their applications in deep learning and computational biology</i></p>
-
-</div>
-
+<div style="display: flex; justify-content: center;">
+  <div class="group-counter">
+  {% for item in currentMembers %}
+    {% assign imageHref = '/images/hu/' | append: item.image | prepend: site.baseurl %}
+    {% if item.current %}
+      <div class="human" style="{% if forloop.last %}flex:0.47;{% else %}flex:1;{% endif %}">
+        <img align="right" class="profile-picture" src="{{ imageHref }}"/>
+        <b>{{ item.name }}</b> <br>
+        <i>{{ item.role }}</i>
+        <div style="display: flex; flex-direction: column; justify-content: space-between; height: 80%;">
+          <p style="width: 90%; flex:1;"><i>{{ item.blurb }}</i></p>
+          {% if item.links != nil %}
+          <p style="flex:1">
+          {% for link in item.links %}
+            <a href="{{ link[1] }}">{{ link[0]}}</a>
+            {% if forloop.last %}{% else %}|{% endif %}
+          {% endfor %}
+          </p>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+  </div>
 </div>
 
 # Alumni
 
-<div class="human" style="background-color:#ddd;">
-
-  <img align="right" style="width: 100px; height: 100px" 
-  src="{{ "/images/hu/hl.png" | prepend: site.baseurl }}">
-  
-  <b>Hannah Le</b> <br>
-  <i>Thesis Student/Consultant</i>
-  <p style="width: calc(100% - 100px - 8px);"><i>Non-dark matter in the universe hoping to understand dark world of viruses.</i></p>
-  <p><a href="https://github.com/hannahhanle">gh</a> </p>
-
+<div style="display: flex; justify-content: center;">
+  <div class="group-counter">
+  {% for item in alumniMembers %}
+    {% assign imageHref = '/images/hu/' | append: item.image | prepend: site.baseurl %}
+    {% if item.current %}
+      <div class="human" style="{% if forloop.last %}flex:0.47;{% else %}flex:1;{% endif %}">
+        <img align="right" class="profile-picture" src="{{ imageHref }}"/>
+        <b>{{ item.name }}</b> <br>
+        <i>{{ item.role }}</i>
+        <div style="display: flex; flex-direction: column; justify-content: space-between; height: 80%;">
+          <p style="width: 95%; flex:1;"><i>{{ item.blurb }}</i></p>
+          {% if item.links != nil %}
+          <p style="flex:1">
+          {% for link in item.links %}
+            <a href="{{ link[1] }}">{{ link[0]}}</a>
+            {% if forloop.last %}{% else %}|{% endif %}
+          {% endfor %}
+          </p>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+  </div>
 </div>
