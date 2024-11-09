@@ -5,29 +5,13 @@
   blurb: "From all the things I've lost, I miss my mind the most."
   links:
     email: mailto:artem@rRNA.ca
-    cv: http://rRNA.ca
     gh: https://github.com/ababaian
-
-- name: Rakan Alsallum
-  current: true
-  image: ra_og.jpg
-  role: Research Assistant
-  blurb: Silence is Golden.
-  links:
-    linkedin: https://www.linkedin.com/in/rakan-alsallum-131905274/
 
 - name: Jess Shen
   current: true
   image: jc_og.png
   role: Graduate Student
   blurb: "If I wasn't meant to recover from my mistakes, why on earth would I make so many of them?"
-
-- name: Zhenfeng Evan Deng
-  current: true
-  image: zd_og.jpg
-  role: Graduate Student
-  blurb: >-
-    Congrats: CUDA is out of memory.
 
 - name: Ethan Fine
   current: true
@@ -40,14 +24,6 @@
   image: pg_og.png
   role: Research Assistant
   blurb: Helping humanity describe the inherently indescribable nature of the universe.
-
-- name: Jonathan Monteiro
-  current: true
-  image: jm_og.png
-  role: Graduate Student
-  blurb: I've been in three labs before this one and I've never properly left them, I doubt I'll ever leave this one either.
-  links:
-    twitter: https://twitter.com/jonathan_montei
 
 - name: Alex Morales
   current: true
@@ -63,17 +39,29 @@
   role: Software Engineer
   blurb: Interested in DL, geometry, graphs, and their applications in biology.
 
-- name: Aayan Rashid
-  current: true
-  image: ar_og.jpg
-  role: Research Assistant
-  blurb: Always looking for novel challenges (and viruses).
-
 - name: Katharina Rothe
   current: true
   image: kr_og.png
   role: Scientist
   blurb: Steady wins the race.
+
+- name: Aayan Rashid
+  current: "false"
+  image: ar_og.jpg
+  role: Research Assistant
+  blurb: Always looking for novel challenges (and viruses).
+
+- name: Aiden Hillier
+  current: "false"
+  image: ah.jpg
+  role: Research Assistant
+  blurb: Aspiring chef and the lab's resident pie baker. Computational biology is my side gig.
+
+- name: Declan Lim
+  current: "false"
+  image: dl.jpg
+  role: Research Assistant
+  blurb: Just trying to help humans update their anti virus software.
 
 - name: Jawad Chowdhury
   current: "false"
@@ -81,11 +69,13 @@
   role: Research Assistant
   blurb: Silence is Golden.
 
-- name: Aiden Hillier
+- name: Jonathan Monteiro
   current: "false"
-  image: ah.jpg
-  role: Research Assistant
-  blurb: Aspiring chef and the lab's resident pie baker. Computational biology is my side gig.
+  image: jm_og.png
+  role: Graduate Student
+  blurb: I've been in three labs before this one and I've never properly left them, I doubt I'll ever leave this one either.
+  links:
+    twitter: https://twitter.com/jonathan_montei
 
 - name: Hannah Le
   current: "false"
@@ -95,14 +85,23 @@
   links:
     gh: https://github.com/hannahhanle
 
+- name: Rakan Alsallum
+  current: "false"
+  image: ra_og.jpg
+  role: Research Assistant
+  blurb: Silence is Golden.
+  links:
+    linkedin: https://www.linkedin.com/in/rakan-alsallum-131905274/
+
 - name: Sergei Lenskii
   current: "false"
   image: sl.jpg
   role: Research Associate
   blurb: Hope is stronger than fear.
 
-- name: Declan Lim
+- name: Zhenfeng Evan Deng
   current: "false"
-  image: dl.jpg
-  role: Research Assistant
-  blurb: Just trying to help humans update their anti virus software.
+  image: zd_og.jpg
+  role: Graduate Student
+  blurb: >-
+    Congrats: CUDA is out of memory.
