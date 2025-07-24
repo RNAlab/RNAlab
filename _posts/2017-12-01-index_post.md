@@ -16,7 +16,7 @@ Our mission is to illuminate the epic tapestry of genetic diversity on Earth. To
 
 For the discovery of <b>RNA viruses</b>: we focus on advancing the capability to find "Dark Viruses", highly-divergent and entirely uncharacterized genetic parasites. Beyond merely discovering fringe virus and virus-like entities, we pursue understanding how these elements impact biology and health. For example, are "Dark Viruses" the cause for human diseases of unknown etiology such as Alzheimer's Disease, Crohn's Disease, endometriosis, or cancer?
 
-For the discovery of <b>plastid-degrading enzymes<b>: we focus on developing computational and molecular ultra-high throughput platforms to interrogate the evolutionary landscape of enzymes which can degrade or upcycle plastic waste. Microplastics global contaminant, we are developing the solutions which can remediate these toxins at the terraform scale.
+For the discovery of <b>plastid-degrading enzymes</b>: we focus on developing computational and molecular ultra-high throughput platforms to interrogate the evolutionary landscape of enzymes which can degrade or upcycle plastic waste. Microplastics global contaminant, we are developing the solutions which can remediate these toxins at the terraform scale.
 
 ------------------------------------------------------------------------------
 
