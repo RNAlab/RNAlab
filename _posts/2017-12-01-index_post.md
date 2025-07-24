@@ -2,7 +2,7 @@
 layout: post
 ---
 
-The Laboratory for RNA-Based Lifeforms (<b>RNAlab</b>) @ University of Toronto is a combined <i>Computational</i> and <i>Molecular</i> research team. Our passion is in understanding the interplay between RNA elements and Genetics. The primary domain where we interrogate this question is through the exploration of the vast evolution and biodiversity of <b>Earth's RNA viruses<b>. <br>
+The Laboratory for RNA-Based Lifeforms (<b>RNAlab</b>) @ University of Toronto is a combined <i>Computational</i> and <i>Molecular</i> research team. Our passion is in understanding the interplay between RNA elements and Genetics. The primary domains where we interrogate this question is through the exploration of the vast evolution and biodiversity of <b>Earth's RNA viruses<b>, and <b>microplastic degrading enzymes<b>.<br>
 
 ## Our Work
 
@@ -12,7 +12,11 @@ The Laboratory for RNA-Based Lifeforms (<b>RNAlab</b>) @ University of Toronto i
 
 The growth of DNA and RNA sequencing data is staggering, outpacing Moore's Law. Public databases now hold 120+ petabytes of raw sequencing data from more than 30 million samples, and this amount doubles every 24 months. Samples span from experimental cancer cells in a lab at the University of Toronto to anal swabs of wild penguins in Antarctica, and everything in between. Beyond their intended purpose, these data also hold genetic sequences from viruses and other genetic parasites in the samples. Yet they remain unanalyzed.
 
-Our mission is to illuminate the epic diversity of infectious agents on Earth. To accomplish this we are developing computational techniques that not only enable a new era of <b>petabase-scale</b> genomics but also help scientists [grok](https://en.wikipedia.org/wiki/Grok) how genetic parasites interconnect life across our planet. Beyond merely discovering fringe virus and virus-like entities, we pursue understanding how these elements impact biology and health. For example, is there a viral cause for diseases of unknown etiology such as Alzheimer's Disease, Crohn's Disease, endometriosis, or cancer?
+Our mission is to illuminate the epic tapestry of genetic diversity on Earth. To accomplish this we develop state of the art computational techniques such as [Serratus](https://www.nature.com/articles/s41586-021-04332-2) and [Logan](https://www.biorxiv.org/content/10.1101/2024.07.30.605881v1) which enable a new era of <b>petabase-scale</b> genomics. This allows us and other scientists to access and [grok](https://en.wikipedia.org/wiki/Grok) billions of dollars of sequence data, and investigate the evolution and ecology of genes the  across our planet.
+
+For the discovery of <b>RNA viruses</b>: we focus on advancing the capability to find "Dark Viruses", highly-divergent and entirely uncharacterized genetic parasites. Beyond merely discovering fringe virus and virus-like entities, we pursue understanding how these elements impact biology and health. For example, are "Dark Viruses" the cause for human diseases of unknown etiology such as Alzheimer's Disease, Crohn's Disease, endometriosis, or cancer?
+
+For the discovery of <b>plastid-degrading enzymes<b>: we focus on developing computational and molecular ultra-high throughput platforms to interrogate the evolutionary landscape of enzymes which can degrade or upcycle plastic waste. Microplastics global contaminant, we are developing the solutions which can remediate these toxins at the terraform scale.
 
 ------------------------------------------------------------------------------
 
