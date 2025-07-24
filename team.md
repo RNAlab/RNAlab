@@ -2,7 +2,7 @@
 layout: page
 title: RNAlab Scientists
 image:
-  feature: bg/tiredformatician.gif
+  feature: bg/lab-candid.gif
 ---
 
 <style>
