@@ -7,43 +7,33 @@
     email: mailto:artem@rRNA.ca
     gh: https://github.com/ababaian
 
+- name: Humberto Debat
+  current: true
+  image: hd.jpg
+  role: Scientist
+  blurb: The original is unfaithful to the translation.
+  links:
+    linkedin: https://www.linkedin.com/in/humberto-debat/
+    twitter: https://twitter.com.com/humbertodebat
+
 - name: Jess Shen
   current: true
   image: jc_og.png
   role: Graduate Student
   blurb: "If I wasn't meant to recover from my mistakes, why on earth would I make so many of them?"
 
-- name: Ethan Fine
-  current: true
-  image: ef_og.png
-  blurb: If I could create things for the rest of my life, I'd still want to create more.
-  role: Research Assistant
-
-- name: Purav Gupta
-  current: true
-  image: pg_og.png
-  role: Research Assistant
-  blurb: Helping humanity describe the inherently indescribable nature of the universe.
-
-- name: Alex Morales
-  current: true
-  image: am.png
-  role: Software Engineer
-  blurb: 20+ or so years jumping between academia, industry and (tech-enabled) seclusion.
-  links:
-    linkedin: https://www.linkedin.com/in/moralestapia/
-
-- name: Luke Pereira
-  current: true
-  image: lp.jpg
-  role: Software Engineer
-  blurb: Interested in DL, geometry, graphs, and their applications in biology.
-
 - name: Katharina Rothe
   current: true
   image: kr_og.png
   role: Scientist
   blurb: Steady wins the race.
+
+- name: Thomas Quigley
+  current: true
+  image: tq.jpg
+  role: Graduate Student
+  blurb: >-
+    If we knew what it was we were doing, it would not be called research, would it?
 
 - name: Aayan Rashid
   current: "false"
@@ -57,11 +47,33 @@
   role: Research Assistant
   blurb: Aspiring chef and the lab's resident pie baker. Computational biology is my side gig.
 
+- name: Alex Morales
+  current: "false"
+  image: am.png
+  role: Software Engineer
+  blurb: 20+ or so years jumping between academia, industry and (tech-enabled) seclusion.
+  links:
+    linkedin: https://www.linkedin.com/in/moralestapia/
+
 - name: Declan Lim
   current: "false"
   image: dl.jpg
   role: Research Assistant
   blurb: Just trying to help humans update their anti virus software.
+
+- name: Ethan Fine
+  current: "false"
+  image: ef_og.png
+  blurb: If I could create things for the rest of my life, I'd still want to create more.
+  role: Research Assistant
+
+- name: Hannah Le
+  current: "false"
+  image: hl.png
+  role: Thesis Student/Consultant
+  blurb: Non-dark matter in the universe hoping to understand dark world of viruses.
+  links:
+    gh: https://github.com/hannahhanle
 
 - name: Jawad Chowdhury
   current: "false"
@@ -77,13 +89,19 @@
   links:
     twitter: https://twitter.com/jonathan_montei
 
-- name: Hannah Le
+- name: Luke Pereira
   current: "false"
-  image: hl.png
-  role: Thesis Student/Consultant
-  blurb: Non-dark matter in the universe hoping to understand dark world of viruses.
+  image: lp.jpg
+  role: Software Engineer
+  blurb: Interested in DL, geometry, graphs, and their applications in biology.
   links:
-    gh: https://github.com/hannahhanle
+    linkedin: https://www.linkedin.com/in/lukejp/
+
+- name: Purav Gupta
+  current: "false"
+  image: pg_og.png
+  role: Research Assistant
+  blurb: Helping humanity describe the inherently indescribable nature of the universe.
 
 - name: Rakan Alsallum
   current: "false"
