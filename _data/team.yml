@@ -1,3 +1,5 @@
+# CURRENT ========================================
+
 - name: Artem Babaian
   current: true
   image: ab_shroom.jpg
@@ -6,6 +8,30 @@
   links:
     email: mailto:artem@rRNA.ca
     gh: https://github.com/ababaian
+
+- name: David Huebert
+  current: true
+  image: dh.jpg
+  role: Post-doctoral Fellow
+  blurb: Structure = Function. So if my structure is scientist, my substrate is the unknown, and my product is publications, why is there always another inhibitor effecting my function?
+
+- name: Dennis Zhu
+  current: true
+  image: dz.jpg
+  role: Research Assistant
+  blurb: Bridging fragments to function and data to discovery
+
+- name: Eunji Park
+  current: true
+  image: ep.jpg
+  role: Post-doctoral Fellow
+  blurb: Curiosity leads, evidence supports
+
+- name: Guihong Tan
+  current: true
+  image: gt.jpg
+  role: Scientist
+  blurb: In for a penny, in for a pound.
 
 - name: Humberto Debat
   current: true
@@ -20,7 +46,7 @@
   current: true
   image: jc_og.png
   role: Graduate Student
-  blurb: "If I wasn't meant to recover from my mistakes, why on earth would I make so many of them?"
+  blurb: If I wasn't meant to recover from my mistakes, why on earth would I make so many of them?
 
 - name: Katharina Rothe
   current: true
@@ -28,18 +54,25 @@
   role: Scientist
   blurb: Steady wins the race.
 
+- name: Bobby Valencia
+  current: true
+  image: atcg.png
+  role: Scientist
+  blurb: Silence is golden.
+
+- name: Spencer Brooks
+  current: true
+  image: sb_og.jpg
+  role: Graduate Student
+  blurb: Failure is the mark of a life well lived. In turn, the only way to live without failure is to be of no use to anyone. Trust me, I've practiced.
+
 - name: Thomas Quigley
   current: true
   image: tq.jpg
   role: Graduate Student
-  blurb: >-
-    If we knew what it was we were doing, it would not be called research, would it?
+  blurb: If we knew what it was we were doing, it would not be called research, would it?
 
-- name: Aayan Rashid
-  current: "false"
-  image: ar_og.jpg
-  role: Research Assistant
-  blurb: Always looking for novel challenges (and viruses).
+# ALUMNI ========================================
 
 - name: Aiden Hillier
   current: "false"
@@ -66,6 +99,12 @@
   image: ef_og.png
   blurb: If I could create things for the rest of my life, I'd still want to create more.
   role: Research Assistant
+
+- name: Forbes Li
+  current: "false"
+  image: fl_og.jpg
+  role: Research Assistant
+  blurb: An intense dissatisfaction with the state of the world, and a compulsion to do something about it.
 
 - name: Hannah Le
   current: "false"
@@ -110,16 +149,3 @@
   blurb: Silence is Golden.
   links:
     linkedin: https://www.linkedin.com/in/rakan-alsallum-131905274/
-
-- name: Sergei Lenskii
-  current: "false"
-  image: sl.jpg
-  role: Research Associate
-  blurb: Hope is stronger than fear.
-
-- name: Zhenfeng Evan Deng
-  current: "false"
-  image: zd_og.jpg
-  role: Graduate Student
-  blurb: >-
-    Congrats: CUDA is out of memory.
