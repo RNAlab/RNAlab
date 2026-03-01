@@ -57,7 +57,7 @@
 - name: Bobby Valencia
   current: true
   image: atcg.png
-  role: Scientist
+  role: Graduate Student
   blurb: Silence is golden.
 
 - name: Spencer Brooks
@@ -69,7 +69,7 @@
 - name: Thomas Quigley
   current: true
   image: tq.jpg
-  role: Graduate Student
+  role: Research Assistant
   blurb: If we knew what it was we were doing, it would not be called research, would it?
 
 # ALUMNI ========================================
