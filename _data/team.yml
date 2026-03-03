@@ -27,6 +27,12 @@
   role: Post-doctoral Fellow
   blurb: Curiosity leads, evidence supports
 
+- name: Flavia Tripon
+  current: true
+  image: ft.jpeg
+  role: Research Assistant
+  blurb: .. the manic patience of the connections and the refinement of the colors made you feel there was a message encoded there.” - Mircea Cărtărescu
+
 - name: Guihong Tan
   current: true
   image: gt.jpg
