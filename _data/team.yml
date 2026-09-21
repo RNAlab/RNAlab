@@ -9,44 +9,17 @@
     email: mailto:artem@rRNA.ca
     gh: https://github.com/ababaian
 
-- name: David Huebert
-  current: true
-  image: dh.jpg
-  role: Post-doctoral Fellow
-  blurb: Structure = Function. So if my structure is scientist, my substrate is the unknown, and my product is publications, why is there always another inhibitor effecting my function?
-
 - name: Dennis Zhu
   current: true
   image: dz.jpg
   role: Research Assistant
   blurb: Bridging fragments to function and data to discovery
 
-- name: Eunji Park
-  current: true
-  image: ep.jpg
-  role: Post-doctoral Fellow
-  blurb: Curiosity leads, evidence supports
-
-- name: Flavia Tripon
-  current: true
-  image: ft.jpeg
-  role: Research Assistant
-  blurb: .. the manic patience of the connections and the refinement of the colors made you feel there was a message encoded there.” - Mircea Cărtărescu
-
 - name: Guihong Tan
   current: true
   image: gt.jpg
   role: Scientist
   blurb: In for a penny, in for a pound.
-
-- name: Humberto Debat
-  current: true
-  image: hd.jpg
-  role: Scientist
-  blurb: The original is unfaithful to the translation.
-  links:
-    linkedin: https://www.linkedin.com/in/humberto-debat/
-    twitter: https://twitter.com.com/humbertodebat
 
 - name: Jess Shen
   current: true
@@ -94,6 +67,12 @@
   links:
     linkedin: https://www.linkedin.com/in/moralestapia/
 
+- name: David Huebert
+  current: true
+  image: dh.jpg
+  role: Post-doctoral Fellow
+  blurb: Structure = Function. So if my structure is scientist, my substrate is the unknown, and my product is publications, why is there always another inhibitor effecting my function?
+  
 - name: Declan Lim
   current: "false"
   image: dl.jpg
@@ -105,6 +84,18 @@
   image: ef_og.png
   blurb: If I could create things for the rest of my life, I'd still want to create more.
   role: Research Assistant
+
+- name: Eunji Park
+  current: true
+  image: ep.jpg
+  role: Post-doctoral Fellow
+  blurb: Curiosity leads, evidence supports
+
+- name: Flavia Tripon
+  current: true
+  image: ft.jpeg
+  role: Research Assistant
+  blurb: .. the manic patience of the connections and the refinement of the colors made you feel there was a message encoded there.” - Mircea Cărtărescu
 
 - name: Forbes Li
   current: "false"
@@ -119,6 +110,15 @@
   blurb: Non-dark matter in the universe hoping to understand dark world of viruses.
   links:
     gh: https://github.com/hannahhanle
+
+- name: Humberto Debat
+  current: true
+  image: hd.jpg
+  role: Scientist
+  blurb: The original is unfaithful to the translation.
+  links:
+    linkedin: https://www.linkedin.com/in/humberto-debat/
+    twitter: https://twitter.com.com/humbertodebat
 
 - name: Jawad Chowdhury
   current: "false"
